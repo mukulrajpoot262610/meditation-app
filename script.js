@@ -41,7 +41,7 @@ min2.addEventListener("click", () => {
   }, 1000);
 });
 
-const timings = new Date(2021, 2, 21, 23).getHours();
+const timings = new Date().getHours();
 console.log(timings);
 
 min4.addEventListener("click", () => {
